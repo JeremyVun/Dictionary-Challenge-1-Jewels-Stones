@@ -12,12 +12,15 @@ Correct Output:
   3
 """
 
+from solutions import slow, fast
+
 
 ########
 # Write your code in this function
 ########
 def solution(jewels, stones):
-  pass
+  #return slow(jewels, stones)
+  return fast(jewels, stones)
 
 
 ########
