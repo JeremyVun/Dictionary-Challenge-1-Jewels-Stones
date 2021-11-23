@@ -23,7 +23,7 @@ def solution(jewels, stones):
 ########
 # This code wil run your solution against a bunch of test cases
 ########
-from tests.runner import run
+from tests.runner import run_tests
 
 if __name__ == "__main__":
-  run(solution)
+  run_tests(solution)
